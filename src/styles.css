@@ -6,7 +6,7 @@
   animation: Fade-In-Out 2s ease-in-out;
   animation-iteration-count: 1;
 
-  animation: Color-Change 60s ease-in-out;
+  animation: Color-Change 150s ease-in-out;
   animation-iteration-count: infinite;
   border: none;
   border-radius: 12px;
