@@ -4,6 +4,10 @@
 }
 .Card {
   animation: Fade-In-Out 2s ease-in-out;
+  animation-iteration-count: 1;
+
+  animation: Color-Change 60s ease-in-out;
+  animation-iteration-count: infinite;
   border: none;
   border-radius: 12px;
   width: 325px;
@@ -50,5 +54,38 @@
   to {
     background-color: #090345;
     color: #e8e7e7;
+  }
+}
+
+@-webkit-keyframes Color-Change {
+  10% {
+    background-color: #801515;
+  }
+  20% {
+    background-color: #806a15;
+  }
+  30% {
+    background-color: #3e055f;
+  }
+  40% {
+    background-color: #007100;
+  }
+  50% {
+    background-color: #002685;
+  }
+  60% {
+    background-color: #1c2e05;
+  }
+  70% {
+    background-color: #030b1e;
+  }
+  80% {
+    background-color: #ff8830;
+  }
+  90% {
+    background-color: #006375;
+  }
+  100% {
+    background-color: #801515;
   }
 }
